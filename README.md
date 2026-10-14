@@ -2,7 +2,7 @@
 
 ## Membuat Program
 
-### Mengakses objek we.are.the.best
+### Mengakses we.are.the.best
 ```
 const we = {
     are: {
@@ -14,7 +14,7 @@ const we = {
 console.log(we.are.the.best)
 ```
 
-### Mengakses objek hello.world
+### Mengakses hello.world
 ```
 const hello = {
     world: "Hello World"
@@ -22,7 +22,7 @@ const hello = {
 console.log(hello.world)
 ```
 
-### Mengakses objek obj.str[3][1][2].man[0].tech.academy
+### Mengakses obj.str[3][1][2].man[0].tech.academy
 ```
 const obj = {
     str: [
@@ -50,7 +50,7 @@ const obj = {
 console.log(obj.str[3][1][2].man[0].tech.academy);
 ```
 
-### Mengakses objek my[0].favourite[3].fruit.is
+### Mengakses my[0].favourite[3].fruit.is
 ```
 const my = [
     {
@@ -81,7 +81,7 @@ const my = [
 console.log(my[0].favourite[3].fruit.is)
 ```
 
-### Mengakses objek num.first[1] + num.second[2]
+### Mengakses num.first[1] + num.second[2]
 ```
 const num = {
     first: [
