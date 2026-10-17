@@ -2,8 +2,8 @@
 
 ## Membuat Program
 
-### Mengakses we.are.the.best
-```
+### Mengakses objek we.are.the.best
+```javascript
 const we = {
     are: {
         the: {
@@ -11,19 +11,19 @@ const we = {
         }
     }
 };
-console.log(we.are.the.best)
+console.log(we.are.the.best);
 ```
 
-### Mengakses hello.world
-```
+### Mengakses objek hello.world
+```javascript
 const hello = {
     world: "Hello World"
-}
-console.log(hello.world)
+};
+console.log(hello.world);
 ```
 
-### Mengakses obj.str[3][1][2].man[0].tech.academy
-```
+### Mengakses objek obj.str[3][1][2].man[0].tech.academy
+```javascript
 const obj = {
     str: [
         null,
@@ -38,7 +38,7 @@ const obj = {
                     man: [
                         {
                             tech: {
-                                academy: "Koda Academy"
+                                academy: "Tech Academy"
                             }
                         }
                     ]
@@ -50,49 +50,37 @@ const obj = {
 console.log(obj.str[3][1][2].man[0].tech.academy);
 ```
 
-### Mengakses my[0].favourite[3].fruit.is
-```
+### Mengakses array my[0].favourite[3].fruit.is
+```javascript
 const my = [
     {
-        favourite: [
-            {
-                artist: {
-                    is: "Sherina"
-                }
-            },
-            {
-                bike: {
-                    is: "Wimcycle"
-                }
-            },
-            {
-                car: {
-                    is: "Daihatsu"
-                }
-            },
+        favourite:  [
+            null,
+            null,
+            null,
             {
                 fruit: {
-                    is: "Food"
+                    is: "Apple"
                 }
             }
         ]
     }
 ];
-console.log(my[0].favourite[3].fruit.is)
+console.log(my[0].favourite[3].fruit.is);
 ```
 
-### Mengakses num.first[1] + num.second[2]
-```
+### Mengakses hasil num.first[1] + num.second[2]
+```javascript
 const num = {
     first: [
-        1,
-        24
+        null,
+        13
     ],
     second: [
-        1,
-        2,
-        8
+        null,
+        null,
+        19
     ]
-}
-console.log(num.first[1] + num.second[2])
+};
+console.log(num.first[1] + num.second[2]);
 ```
